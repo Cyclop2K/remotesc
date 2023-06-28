@@ -1,10 +1,3 @@
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
 
 # remotesc is a script for REMOTE CONTROL using bash
 
@@ -42,7 +35,6 @@ if your not from israel and from other country make sure to change this section 
 
 
 is_israeli_ip=false
-if [[ $(curl -sSf "http://ip-api.com/json/$public_ip" | awk -F'"' '/country/{print $8}') == "<span style="color: green"> COUNTRY </span>
-" ]]; then
+if [[ $(curl -sSf "http://ip-api.com/json/$public_ip" | awk -F'"' '/country/{print $8}') == "```COUNTRY```" ]]; then
     is_israeli_ip=true
 fi
