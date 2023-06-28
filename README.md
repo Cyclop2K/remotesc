@@ -2,11 +2,19 @@
 
 
 Anonymously(using NIPE) and Automatically Connect and Execute Commands on the Remote Server via SSH
-commands - *whois*nmap will run automatically after connecting to remote server via ssh
+
+
+
+
+
+commands - whois       nmap will run automatically after connecting to remote server via ssh
+
+
+
 
 log file and nmap+whois files will be saved on machine
 
-example>
+example of the script running >
 
 
 
