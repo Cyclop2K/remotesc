@@ -1,15 +1,10 @@
-# remotesc is a script for REMOTE CONTROL
-
-
-you input an IP/DNS address and it will run the commands 
-
-
-*whois
-*nmap
+# remotesc is a script for REMOTE CONTROL using bash
 
 
 Anonymously(using NIPE) and Automatically Connect and Execute Commands on the Remote Server via SSH
+commands - *whois*nmap will run automatically after connecting to remote server via ssh
 
+log file and nmap+whois files will be saved on machine
 
 example>
 
