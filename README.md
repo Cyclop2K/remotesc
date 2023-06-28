@@ -27,4 +27,4 @@ chmod +x remotesc.sh
 
 ./remotesc.sh
 
-ty
+**** make sure you have NIPE installed on your machine ****
