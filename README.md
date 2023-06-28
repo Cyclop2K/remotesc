@@ -28,3 +28,13 @@ chmod +x remotesc.sh
 ./remotesc.sh
 
 **** make sure you have NIPE installed on your machine ****
+
+
+if your not from israel and from other country make sure to change this section in the script to your country >>>>
+
+
+is_israeli_ip=false
+if [[ $(curl -sSf "http://ip-api.com/json/$public_ip" | awk -F'"' '/country/{print $8}') == "<span style="color: green"> COUNTRY </span>
+" ]]; then
+    is_israeli_ip=true
+fi
