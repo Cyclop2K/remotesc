@@ -4,10 +4,7 @@
 Anonymously(using NIPE) and Automatically Connect and Execute Commands on the Remote Server via SSH
 
 
-
-
-
-commands - whois       nmap will run automatically after connecting to remote server via ssh
+input any IP/DNS address to scan and check the Whois of the given address after connecting to remote server via SSH 
 
 
 
