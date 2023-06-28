@@ -107,3 +107,6 @@ echo -e "${redbold}!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!${
 	echo -e "Thanks for using My Script :D, bye"
 	exit 1
 ########EOF_SCRIPT##########
+
+#your free to use/publish/copy this script
+#this script created By [Michael White] = please mention me if you use this script - https://github.com/Cyclop2K
